@@ -8,32 +8,49 @@
 <body>
     
 <!-- O atributo action serve para excutar uma ação, enviar o usuario para outro site web/enviar um e-mail de boas vindas para o úsuario/ guardar as informações preenchendo no formulario para um bamco de dados ou chamar alguma ação usando o Javascript -->
-    <form action="">
+    <form action="./boasVindas.html" target="_blank">
         
-        <!-- placeholder = para inserir um texto auxiliar e para informar o que o usuario deve fazer no campo input -->
-        <!-- label =  -->
-        <label for="">Nome:</label>
-        <input type="text" placeholder="Insira o nome do usuario"> <br>
+        <fieldset>
+            <legend>Digite o seu nome:</legend>
+            <!-- placeholder = para inserir um texto auxiliar e para informar o que o usuario deve fazer no campo input -->
+            <!-- label =  -->
+            <label for="">Nome:</label>
+            <input type="text" placeholder="Insira o nome do usuario" required> 
+        </fieldset><br>
         
-        <input type="radio" name="radio"> <label>São Paulo</Label><br>
-        <input type="radio" name="radio"> <label for="">Grande São Paulo</label><br>
-        <input type="radio" name="radio"><label for="">Campinas</label><br>
+        <fieldset>
+            <legend>Selecione onde você mora:</legend>
+            <input type="radio" name="radio"> <label>São Paulo</Label><br>
+                <input type="radio" name="radio"> <label for="">Grande São Paulo</label><br>
+                <input type="radio" name="radio"><label for="">Campinas</label>
+        </fieldset>
+        <br>
 
-        <!-- checkbox =  você tem multiplas escolhas para serem realizadas-->
+        <fieldset>
+            <legend>Escolha seu genero de musical:</legend>
+            <!-- checkbox =  você tem multiplas escolhas para serem realizadas-->
         <input type="checkbox"> <label for="">Funk</label><input type="checkbox"> <label for="">Pagode</label><br>
         <input type="checkbox"> <label for="">Metal</label><input type="checkbox"> <label for="">Trap</label><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Escolha a distancia:</legend>
+            0KM<input type="range">100KM<br>
+        </fieldset><br>
 
-        0KM<input type="range">100KM<br>
-
-        <!-- selet = varias seleções -->
-        <select name="" id="">
+        <fieldset>
+            <legend>Sua cor favorita:</legend>
+            <!-- selet = varias seleções -->
+            <select name="" id="">
             <option value="Amarelo">Amarelo</option>
             <option value="Branco">Branco</option>
             <option value="Vemelho">Vermelho</option>
         </select><br>
+        </fieldset>
         <br>
 
-        <!-- datalist =  -->
+        <fieldset>
+            <legend>Roupa preferida:</legend>
+            <!-- datalist =  -->
         <input type="text" list="busca">
         <datalist id="busca">
             <option value="Calça"></option>
@@ -41,12 +58,18 @@
             <option value="Camiseta"></option>
             <option value="Jaqueta"></option>
         </datalist><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Sua opinião:</legend>
+            <textarea cols="30" rows="10"></textarea>
         <br>
+        </fieldset>
 
         <!-- caso queira só colocar n° deve ser colocado number -->
         <!-- button (value=coloca texto no input quando o valor do atriputo type estiver como button)-->
        
-        <input type="button" value="enviar">
+        <input type="submit" value="enviar">
         <br>
 
         
