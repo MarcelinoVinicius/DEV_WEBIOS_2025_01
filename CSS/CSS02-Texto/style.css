@@ -1,0 +1,21 @@
+/* cor do texto (o rgb é colocado para qualquer coisa que seja digital, lembrando que ele tem dois formatos o formato decimal que é com os números
+e o hexadecimal que é numeros e letras 0 a F)*/
+h1{color: rgb(255, 255, 255);
+/* cor de texto hexadecimal */
+background-color: #4c00a3; height: 75px; 
+/* font-size= muda o tamanho da fonte no HTML */
+font-size: 60px;text-align: center;}
+/* font-family = configura o tipo da fonte mostrada no texto apresentado. */
+body {font-family: "Fascinate Inline", system-ui;
+color: #FFFFFF;
+background-color: #000000;
+/* font-weight = 100 até 900(Onde mostra o espassamento entre palavras) */
+font-weight: 400; 
+/* font-style = estilos de fontes*/
+font-style: italic;
+/* line-height = espassamento entre as linhas */
+line-height: 30px;}
+h2{text-shadow: 7px 6px 4px #4c00a3;
+/* deslocamento de sombra no texto */
+text-align: center;
+}
