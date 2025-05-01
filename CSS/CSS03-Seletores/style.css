@@ -1,0 +1,7 @@
+/* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo simbolo do jogo da velha */
+#div1 {background-color: rgb(9, 163, 112);}
+#div2 {background-color: rgb(255, 201, 239);}
+/* para sinalizar que eu vou chamar um id o nome deve vir acompanhado no inicio pelo ponto finaç*/
+.estilotitulo {
+    text-shadow: 10px 5px 4px black;
+}
