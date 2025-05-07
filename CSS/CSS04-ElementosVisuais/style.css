@@ -1,11 +1,43 @@
 *{margin: 0;}
+body{
+    /* background-color: bisque; */
+    background-image: url(./coraline1.jpg);
+    /* fixed / scroll */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 
 #p1{ /* largura da borda */ 
     border-width: 1px;
     /* cor da borda */ 
-    border-color: rgb(18, 0, 185);
+    border-color: rgb(79, 80, 80);
     /* estilo da borda */
     border-style: inset;
-    background-color: rgb(103, 103, 243);
-    text-shadow: 07px 08px 07px;
+    background-color: rgb(255, 209, 3);
+    background-size: 100%;
+}
+
+#p2{/* largura da borda */ 
+    border-width: 1px;
+    /* cor da borda */ 
+    border-color: rgb(79, 80, 80);
+    /* estilo da borda */
+    border-style: inset;
+    background-color: rgb(255, 209, 3);
+    background-size: 100%;}
+
+figure{
+
+    border-width: 2px; border-color: (18,25,120); border-style: outset;
+    background-color: rgb(255, 209, 3);
+    
+    width: 400px;
+    height: 300px;
+}
+img{
+    /* largura da imagem */
+    width: 300px;
+    /* altura */
+    height: 200px;
 }
