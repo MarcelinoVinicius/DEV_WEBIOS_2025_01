@@ -1,0 +1,11 @@
+*{margin: 0;}
+
+#p1{ /* largura da borda */ 
+    border-width: 1px;
+    /* cor da borda */ 
+    border-color: rgb(18, 0, 185);
+    /* estilo da borda */
+    border-style: inset;
+    background-color: rgb(103, 103, 243);
+    text-shadow: 07px 08px 07px;
+}
