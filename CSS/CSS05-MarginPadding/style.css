@@ -1,9 +1,21 @@
+*{
+    margin: auto;
+}
 #div1{ 
     /* border = colocar tamanho da bordae, estilo da borda e a cor da borda */
     border: 1px solid rgb(0, 26, 255);
-    /* espaço interno */
+    /* padding = espaço interno, se não tiver uma especificação de lagum dos lados ele ira ser em todos os lados. */
     padding: 10px;
-    margin-bottom: 25px;
+    /* espaços externos */
+    /* margin-bottom: 25px; */
+    /* top , rigth, bottom, left */
+    /* margin: 50px 40px 90px 25px; */
+    /* formato cruz = top e bottom, rigth e left */
+    /* margin: 90px 10%; */
+    /* top, rigth e bottom, left */
+    /* margin: 20px 5% 1.5rem; */
+    margin: 125px;
+
 }
 
 #div2{
@@ -11,6 +23,7 @@
     width: 500px;
     height: 510px;
     padding: 50px;
+    font-family: monospace;
 }
 
 img{width: 500px;
