@@ -1,0 +1,18 @@
+#div1{ 
+    /* border = colocar tamanho da bordae, estilo da borda e a cor da borda */
+    border: 1px solid rgb(0, 26, 255);
+    /* espaço interno */
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#div2{
+    border: 1px solid yellow;
+    width: 500px;
+    height: 510px;
+    padding: 50px;
+}
+
+img{width: 500px;
+height: 400px;
+}
