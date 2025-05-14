@@ -1,0 +1,38 @@
+.Divis{
+    border: 2px solid black; 
+    clear: both;
+    height: 500px;
+    margin-bottom: 30px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#imgSorria{
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
+#imgNaruto{
+    height: 450px;
+    width: 800px;
+    float: right;
+    margin-left: 40px;
+}
+
+#imgGodOfWar{
+    height: 400px;
+    width: 400px;
+}
+
+#imgRDR{
+    height: 400px;
+    width: 400px;
+}
+
+#gifLetraX{
+    height: 400px;
+    width: 400px;
+}
