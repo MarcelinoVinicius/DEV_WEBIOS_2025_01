@@ -1,3 +1,8 @@
+*{
+    margin: auto;
+    width: 90%;
+}
+
 .Divis{
     border: 2px solid black; 
     clear: both;
@@ -13,6 +18,39 @@
     width: 300px;
     float: left;
     margin-right: 40px;
+    border-radius: 5%;
+    /* transition: transform 5s, width 5s, height 5s; */
+}
+
+/* #imgSorria:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg);
+} */
+
+#tabelaSorria{
+    width: 70%;
+    border: 1px solid;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border-color: red;
+}
+
+td{
+    width: 50%;
+    border: 1px solid;
+    border-color: red;
+}
+
+#Sorria{
+    color: rgb(180, 0, 0);
+    font-size: 25px;
+    margin-top: 70px;
+}
+#Sorria:hover{
+    color: black;
+    background-color: rgb(180, 0, 0);
+    
 }
 
 #imgNaruto{
@@ -20,19 +58,33 @@
     width: 800px;
     float: right;
     margin-left: 40px;
+    transition: opacity 0.9s;
+}
+#imgNaruto:hover{
+opacity: 0;
+}
+
+#narutop::first-letter{
+    font-size: 25px;
+    color: rgb(255, 153, 0);
+    font-family: "Fruktur", system-ui;
+    font-weight: 400;
 }
 
 #imgGodOfWar{
     height: 400px;
     width: 400px;
+    float: left;
 }
 
 #imgRDR{
     height: 400px;
     width: 400px;
+    float: right;
 }
 
 #gifLetraX{
     height: 400px;
     width: 400px;
+    margin-left: 15%;
 }
