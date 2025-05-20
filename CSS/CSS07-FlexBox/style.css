@@ -4,11 +4,28 @@
     flex-direction: row;
     /* Evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
     flex-wrap: wrap;
+    /* flex-end = colocar os elemento na direta da tela */
+    /* center = coloca o elementos no centro */
+    /* space-between = vai colocar um espaçamento no elemento da tela que deixe uniforme e não fique colado na um ao outro*/
+    /* space-around = coloca um espaço uniforme entre os elementos e também adiciona o mesmo espaçamento dos elementos da borda que ficam perto da borda */
+    /* space-evenly = tem espaçamento uniforme entre os elementos e colocado o dobro nos elementos perto da borda  */
+    justify-content: space-evenly;
+    border: 2px solid red;
+    height: 200px;
+    align-items: stretch;
+    /*  stretch = alinha ni eixo vertical*/
+    
+
+    /* toda vez que você cria um elemento no html ele sempre estara colado na esquerda */
 }
 
 .itens{
     border: 2px solid black;
-    width: 50px;
-    height: 50px;
+    /* width: 50px;
+    height: 50px; */
 }
 
+#div1:hover {
+    flex-grow: 0.24;
+    transition: 3s;
+}
