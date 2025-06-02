@@ -6,11 +6,12 @@ body{
 .container{
   display: grid;
   grid-template-columns: repeat(5, 25%);
-  grid-template-row: repeat(7, 80px);
+  grid-template-rows: repeat(6, 70px);
   column-gap: 5px;
   row-gap: 5px;
   justify-items: center;
   align-items: center;
+  border: 1px solid black;
 }
 
 .itens{
