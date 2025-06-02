@@ -5,4 +5,5 @@ body{
 .table{
   border: 1px solid #080808;
   background-color: #faacfa;
+  margin: 10px;
 }
