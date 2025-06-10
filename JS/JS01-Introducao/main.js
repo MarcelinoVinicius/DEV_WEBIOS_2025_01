@@ -81,3 +81,24 @@ console.log(temCamisa == true && temCracha == true) // && = "and" ou "e"
 console.log(temCamisa == true || temCracha == true) // || = "our" ou "ou"
 console.log(!(temCamisa == true || temCracha == true))
 
+//Operador de atribuição
+var x = 3
+var y = 2
+x= x + y
+console.log(x);
+// var soma = x + y
+// x = soma
+
+x = 120
+console.log(x)
+
+
+// log > para mostrar os resultados, mensagens do sistema
+// clear > serve para limpar o console e deixar disponivel para novas mensagens
+
+console.clear()
+console.log("Está tudo limpo");
+console.log("Olá mundo");
+
+console.error("Não use essa tela, você pode ser punido por isso")
+console.warn("Mas apresenta uma mesagem em amarelo")
