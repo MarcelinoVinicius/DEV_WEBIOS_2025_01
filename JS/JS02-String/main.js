@@ -5,7 +5,7 @@ var texto1 = "Olá IOS"
 //             0 1 2 3 4 5 6
 
 var resultado1 = texto1.charAt(6)
-console.log(resultado1);
+console.log(resultado1)
 var resultado = texto1[1] // acessar caracte
 console.log(resultado);
 
