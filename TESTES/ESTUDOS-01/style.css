@@ -1,6 +1,7 @@
 *{margin: 0}
 .conteiner{
  display: flex;
+ grid-template-columns: repeat (4, 1fr);
  background-color: 5E5E5E;
  color: FFF6ED;
 }
