@@ -1,6 +1,23 @@
 *{margin: 0}
-body{
+.conteiner{
+ display: flex;
  background-color: 5E5E5E;
+ color: FFF6ED;
+}
+
+.divSobreNos{
+  background-color: 15297C;
+  margin-bottom: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.sobreNos1{
+  float: right;
+}
+
+.sobreNos2{
+  float: left;
 }
 
 .tituloP{
@@ -11,25 +28,98 @@ body{
   color: FFF6ED;
 }
 
-.divSobreNos{
-  background-color: 15297C;
-}
-
 .MV{
   background-color: 15297C;
   color: FFF6ED;
+  padding: 5%;
+  padding: 5%;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 #visão{
   background-color: FFF6ED;
   color: 15297C;
+  padding: 5%;
+  padding: 5%;
+  margin: 30px;
+  float: left;
+  float: right;
 }
 
 #servicoOferece{
   background-color: FFF6ED;
   color: 000000;
+  margin: 30px;
+  padding: 5%;
 }
 
-p{
+.textoS{
+  float: left;
+}
+
+#E{
+  color: 15297C;
+}
+
+#S{
   color: FFF6ED;
 }
+
+#G{
+  color: 000000;
+}
+
+.caixaDeTextoESG1{
+  background-color: FFF6ED;
+  margin: 30px;
+  padding: 5%;
+ float: left;
+}
+
+.caixaDeTextoESG2{
+  background-color: FFF6ED;
+  margin: 30px;
+  padding: 5%;
+ float: right;
+}
+
+.tituloESG{
+  color: 15297C;
+}
+
+.suubtituloESG{
+  color: 15297C;
+}
+
+.suubtituloESG{
+  color: 000000;
+}
+
+#f{
+ background-color: 15297C;
+ color: FFF6ED;
+}
+
+#VP{
+ color: 15297C;
+}
+
+.caixaVP{
+ background-color: 15297C;
+ color: FFF6ED;
+}
+
+#botãiSimulacao{
+ background-color: 15297C;
+ color: FFF6ED;
+}
+
+.PF{
+ background-color: FFF6ED;
+ color: 000000;
+}
+
+
+
+
