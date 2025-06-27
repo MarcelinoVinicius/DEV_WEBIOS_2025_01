@@ -30,15 +30,14 @@
 <body>
 
    <header class="header">
-    <div class="logo">🏠 ConstruLife</div>
-    <input type="text" placeholder="Pesquisar..." class="search-bar">
+    <div class="logo">ConstruLife</div>
+    <!-- <input type="text" placeholder="Pesquisar..." class="search-bar"> -->
     <nav class="menu" onclick="toggleMenu()">MENU ☰</nav>
     <ul id="menu-items" class="menu-items">
       <li><a href="./home.html.html">Início</a></li>
       <li><a href="./index.html">Sobre nós</a></li>
       <li><a href="./financiamento.html">Financiamento</a></li>
-      <li><a href="#tituloP">Sustentabilidade</a></li>
-      <li><a href="#contato">Contato</a></li>
+      <li><a href="./index.html/ESG">Contato</a></li>
     </ul>
       </header>
     
@@ -97,7 +96,7 @@
                 
             </div>
             
-            <div class= 'MV'>
+            <div class= 'MV' id="valores">
                 <h3>
                     Valores
                 </h3>
@@ -173,8 +172,10 @@
                     
                     <h2 id = 'G'>G</h2>
                 </div>
-                <img src="./stitch.c.jpg" alt="Arvore em uma cupula flutuando" class= imgESG> 
+                <img src="./IMG/sustentabilidade.png" alt="Arvore em uma cupula flutuando" class= imgESG id="imgESG1"> 
                 <div class= 'caixaDeTextoESG'> 
+                
+                <div id="caixaDeTextoESG1">
                     <h3 class = 'tituloESG'>Ambiental (E)</h3>
                     <b class = 'subtituloESG'>
                         Construir o futuro sem destruir o presente
@@ -197,11 +198,15 @@
                         estamos investindo em construção circular: reciclamos resíduos, usamos o que 
                         já existe e desenhamos obras pensando no futuro mais duráveis, adaptáveis e sustentáveis.
                     </p>
+
+                </div>
         
                 </div>
-                <img src="./stitch.c.jpg" alt="Reunião" class= imgESG>
+                <img src="./IMG/social.png" alt="Reunião" class= imgESG id="imgESG1">
                 <div class= 'caixaDeTextoESG'> 
-                    <h3 class = 'tituloESG'>Social (S)</h3><br>
+                    
+                    <div id="caixaDeTextoESG2">
+                        <h3 class = 'tituloESG'>Social (S)</h3><br>
                     <b class = 'subtituloESG'>
                             Gente no centro de tudo
                     </b>
@@ -224,12 +229,15 @@
                         A gente não só ensina a construir, mas também constrói conhecimento. Em parceria com escolas
                         e ONGs, criamos programas de formação para jovens e adultos
                     </p>
+                    </div>
         
                     </div>
 
-                <img src="./stitch.c.jpg" alt="analise de dados" class= imgESG>
+                <img src="./IMG/governanca.png" alt="analise de dados" class= imgESG id="imgESG2">
                 <div class= 'caixaDeTextoESG'> 
-                    <h3 class = 'tituloESG'>Governança (G)</h3><br>
+                    
+                    <div id="caixaDeTextoESG3">
+                        <h3 class = 'tituloESG'>Governança (G)</h3><br>
                     <b class = 'subtituloESG'>
                             Ética é nossa base
                     </b>
@@ -251,6 +259,7 @@
                         Nosso código de conduta é claro, acessível e vivo. Todo mundo na ConstruLife passa por 
                         treinamentos e tem canais seguros para falar o que precisa. Aqui, integridade não é discurso é cultura.
                     </p>
+                    </div>
         
                     </div>
             

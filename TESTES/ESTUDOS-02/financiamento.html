@@ -30,14 +30,14 @@
     
   <header class="header">
     <div class="logo"> ConstruLife</div>
-    <input type="text" placeholder="Pesquisar..." class="search-bar">
+    <!-- <input type="text" placeholder="Pesquisar..." class="search-bar"> -->
     <nav class="menu" onclick="toggleMenu()">MENU ☰</nav>
     <ul id="menu-items" class="menu-items">
       <li><a href="./home.html.html">Início</a></li>
-      <li><a href="./index.html"></a></li>
+      <li><a href="./index.html">Sobre nós</a></li>
       <li><a href="./financiamento.html">Financiamento</a></li>
-      <li><a href="#tituloP">Sustentabilidade</a></li>
-      <li><a href="#contato">Contato</a></li>
+      <!-- <li><a href="#tituloP">Sustentabilidade</a></li>
+      <li><a href="#contato">Contato</a></li> -->
     </ul>
   </header>   
 
@@ -45,13 +45,12 @@
     Financiamento
   </h1>
   
-  <div>
-    
-    <h2 id= 'PF'>
+  <div id="caixaPF">
+    <h2 class= "PF">
       Programa de Financiamento
     </h2>
-    
-    <p id= 'textoPF'>
+    <p class= "textoPF">
+      
       O programa de financiamento é uma iniciativa do Governo Federal que oferece facilidades 
       na compra de imóveis para famílias com renda mensal bruta de até R$ 3.036,00 no âmbito 
       dos programas de habitação popular.
@@ -92,43 +91,52 @@
       
       <div class= 'caixaVP7'>
         Subsídio de até R$ 29 mil
-      </div>
+      </div> 
       
-      <div class= 'imgCaFG1'>
+    </div>
+  </div>
+
+  <div>
+    <div class= "CFC" >
+
+      <div class= 'imgCaFG'>
         <img  src="./IMG/Caixa_Econômica_Federal_logo.svg.png" alt="Logo banco Caixa" id = "caixa">
       </div>
       
-      <div class= 'imgCaFG2'>
+      <div class= 'imgCaFG'>
         <img src="./IMG/logo_fgts.png" alt="Logo FGTS" id= "FG">
       </div>
         <div id= "conteinerSuaCasa">
             <b>Sua casa própria está na contrulife</b>
-            <div id= icones1>
-                <img src="./stitch.c.jpg" alt="Logo FGTS" id= FG>
+            <div class="icon" id= icones1>
+                <img src="./IMG/predio_azul.png" alt="Logo FGTS" >
                 <p>
                     unidades apartir de R$ 181 mil
                 </p>
             </div>
 
-            <div id= icones2>
-                <img src="./IMG/contract_azul.png" alt="documento" id= FG>
+            <div class="icon" id= icones2>
+                <img src="./IMG/contract_azul.png" alt="documento">
                 <p>
                     documentação grátis
                 </p>
-            
-            <div id= icones3>
-                <img src="./IMG/pay_azul.png" alt="pagamento" id= FG>
+            </div>
+
+            <div class="icon" id= icones3>
+                <img src="./IMG/pay_azul.png" alt="pagamento">
                 <p>
                     renda familiar a partir de r$ 2.125,20
                 </p>
             </div>
-            <div id= icones4>
-                <img src="./IMG/money_azul.png" alt="dinheiro" id= FG>
+
+            <div class="icon" id= icones4>
+                <img src="./IMG/money_azul.png" alt="dinheiro">
                 <p>
                     pagamento e entrada facilitado
                 </p>
             </div>
-            <div id= icones5>
+
+            <div class="icon" id= icones5>
                 <img src="./IMG/brazil_azul.png" alt="Brasil" id= FG>
                 <p>
                     aptos. nas melhores regiôes de São Paulo
@@ -136,11 +144,10 @@
             </div>
             
         </div>
-            
-            
-        </div>
-      
+
     </div>
+  </div>
+
     <div id= 'conteinerBotaoiSimulacao'>
         <p id= 'VP2'> Agora que você já sabe um pouco mais sobre as vantagens, vamos simular seu financiamento
         </p>
@@ -158,8 +165,8 @@
           que um de nossos atendentes entre em contato com você o mais breve possível.
           Lembre-se que não lhe custa nada. Se preferir você pode entrar em contato através
       </p>
-      <img src="./stitch.c.jpg" alt="icone de e-mail">
-      <img src="./stitch.c.jpg" alt="icone de telefone">
+      <img src="./IMG/e-mail.png" alt="icone de e-mail" class="imgET">
+      <img src="./IMG/telefone.png" alt="icone de telefone" class="imgET">
   </div>
 
   <footer>
