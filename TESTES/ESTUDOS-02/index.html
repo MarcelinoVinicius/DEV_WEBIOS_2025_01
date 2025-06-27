@@ -7,15 +7,26 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
+
+    <header class="header">
+        <div class="logo">ConstruLife</div>
+        <!-- <input type="text" placeholder="Pesquisar..." class="search-bar"> -->
+        <nav class="menu" onclick="toggleMenu()">MENU ☰</nav>
+        <ul id="menu-items" class="menu-items">
+          <li><a href="">Home</a></li>
+          <li><a href="./index.html">Sobre nós</a></li>
+          <li><a href="./financiamento.html">Financiamento</a></li>
+          <li><a href="#sustentabilidade">ESG</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </header>
     
     <div class="container">
         <h1 class = 'tituloP'> Sobre a nossa empresa </h1>
         <div class= 'divSobreNos'>
             
-
-            <h2 id= 'tituloHistoria'> Nossa história</h2>
-            <img src="./stitch.c.jpg" alt="casa com um jardim e algumas arvores">
             <p class= 'sobreNos1'> 
+                <h2 id= 'tituloHistoria'> Nossa história</h2><br>
                 A ConstruLife teve seu início em meados dos anos 2020, surgiu com o propósito de revolucionar 
                 o setor da construção civil brasileira por meio de soluções que unissem eficiência energética,
                 inovação tecnológica e responsabilidade social. Visando fazer a sua parte ambiental num meio 
@@ -26,12 +37,13 @@
                 e as melhores tecnologias, desde os projetos até as estruturas, e o cuidado com todo o material a ser utilizado, 
                 dando o descarte correto a todos os resíduos provenientes dos projetos da empresa.
             </p>
-        
+            <img src="./IMG/textoDaHitoria.jpg" alt="casa com um jardim e algumas arvores" id="casa">
+
         </div>
         <div class= 'divSobreNos'>
             <img src="./stitch.c.jpg" alt="casa com um jardim e algumas arvores">
             <p class= 'sobreNos2'> 
-                Com sede em Braz Leme – Casa Verde, a construlife rapidamente se consolidou como referência nacional 
+                Com sede em Braz Leme Casa Verde, a construlife rapidamente se consolidou como referência nacional 
                 no desenvolvimento de habitações sustentáveis e inteligentes, atendendo tanto projetos residenciais quanto 
                 iniciativas sociais e comunitárias.
                 Desde sua criação, a ConstruLife atua de forma integrada aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
@@ -215,6 +227,12 @@
             
         </div>
     </div>
+
+
+
+
+
+    <script src="./JS/main.js"></script>
 </body>
         
 </html>

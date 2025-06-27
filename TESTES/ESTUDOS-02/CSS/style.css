@@ -3,24 +3,82 @@
 
 
 body{
+    display: grid;
     background-color: #5E5E5E;
     color: #FFF6ED;
 }
 
-.container{
-    grid-template-rows: repeat (12, 1fr);
-   grid-template-columns: repeat (4, 1fr);
+.header{
+  background-color: #15297C;
+  color: white;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  grid-template-rows: repeat (1, 1fr);
+  grid-template-columns: repeat (5, 1fr);
 }
+
+.logo{
+  grid-column: 1/3;
+  grid-row: 1/2;}
+
+  /* .search-bar{
+  grid-column: 2/3;
+  grid-row: 1/2;} */
+
+  .menu{
+  grid-column: 3/4;
+  grid-row: 1/2;}
+
+  
+  .menu-items{
+  grid-column: 4/5;
+  grid-row: 1/2;}
+
+/* .container{
+  
+} */
+
 .divSobreNos{
-    background-color: #15297C;
-    margin-bottom: 30px;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    height: 150px;
+  display: flex;
+  justify-items: start;
+  align-items: start;
+  /* display: grid;
+  grid-template-rows: repeat (4, 1fr);
+  grid-template-columns: repeat (5, 1fr); */
+  margin-bottom: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 150px;
+  background-color: #15297C;
+  margin-bottom: 30px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: 150px;
+  
+  
   }
   
 .sobreNos1{
-    float: right;
+    padding: 10px 50px;
+    width: 150px;
+    height: 120px;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-items: start;
+    align-items: start;
+  }
+  #casa{
+    width: 380px;
+    height: 320px;
+    grid-column: 3/5;
+    grid-row: 2/3;
+    justify-items: start;
+    align-items: start;
   }
   
   .sobreNos2{
@@ -28,7 +86,11 @@ body{
   }
   
   .tituloP{
+    text-align: center;
     color: #FFF6ED;
+    font-size: 5em;
+    margin-bottom: 5%;
+    justify-content: center;
   }
   
   #tituloHistoria{
