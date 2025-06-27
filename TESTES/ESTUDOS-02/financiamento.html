@@ -5,10 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConstruLife | Financiamento</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('.card');
+      cards.forEach((card) => {
+        const img = card.querySelector('img');
+        const content = document.createElement('div');
+        content.classList.add('card-content');
+
+        // Pega e move os elementos de texto abaixo da imagem para dentro da div .card-content
+        const children = Array.from(card.children).slice(1);
+        children.forEach(child => content.appendChild(child));
+        card.appendChild(content);
+
+        img.addEventListener('click', () => {
+          content.classList.toggle('show');
+        });
+      });
+    });
+  </script>
+
 </head>
 <body>
     
-     
+  <header class="header">
+    <div class="logo"> ConstruLife</div>
+    <input type="text" placeholder="Pesquisar..." class="search-bar">
+    <nav class="menu" onclick="toggleMenu()">MENU ☰</nav>
+    <ul id="menu-items" class="menu-items">
+      <li><a href="./home.html.html">Início</a></li>
+      <li><a href="./index.html"></a></li>
+      <li><a href="./financiamento.html">Financiamento</a></li>
+      <li><a href="#tituloP">Sustentabilidade</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </header>   
+
   <h1 id= 'f'>
     Financiamento
   </h1>
@@ -129,6 +161,19 @@
       <img src="./stitch.c.jpg" alt="icone de e-mail">
       <img src="./stitch.c.jpg" alt="icone de telefone">
   </div>
+
+  <footer>
+    <div class="footer">
+      <p>© 2025 ConstruLife • Todos os direitos reservados</p>
+      <div class="info-footer">
+        <p>Sobre nós</p>
+        <p>Redes sociais</p>
+        <p>Localização</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./JS/main.js"></script>
 
 </body>
 </html>
